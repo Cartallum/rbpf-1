@@ -1,0 +1,14 @@
+[package]
+name = "rbpf_cli"
+version = "0.2.38"
+description = "CLI to test and analyze eBPF programs"
+authors = ["Cartallum Maintainers <maintainers@cartallum.com>"]
+repository = "https://github.com/Cartallum/rbpf"
+homepage = "https://cartallum.com/"
+keywords = ["BPF", "eBPF", "interpreter", "JIT"]
+edition = "2018"
+
+[dependencies]
+cbe_rbpf = { path = "../", features = ["debugger"] }
+test_utils = { path = "../test_utils/" }
+clap = "3.0.0-beta.2"

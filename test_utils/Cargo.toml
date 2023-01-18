@@ -1,0 +1,10 @@
+[package]
+name = "test_utils"
+version = "0.2.38"
+authors = ["Cartallum Maintainers <maintainers@cartallum.com>"]
+edition = "2022"
+publish = false
+
+[dependencies]
+libc = "0.2"
+cbe_rbpf = { path = "../" }
